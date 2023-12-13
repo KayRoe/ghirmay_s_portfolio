@@ -1,0 +1,65 @@
+
+.hidden {
+  display: none;
+}
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Lato", "Montserrat";
+
+}
+
+.tstyle {
+  border-bottom: solid #14a2bbcb 10px;
+  font-weight: 600;
+}
+
+.italics {
+  font-style: italic;
+  color:  #14a2bbcb;
+}
+
+
+h1, h4, h5 {
+  padding-bottom: 5px;
+  color: #999999;
+
+}
+
+h1 {
+  margin-left: 15px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  font-weight: 400px;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 20pt;
+  color: #65666A;
+}
+
+h4 {
+  font-size: 18pt;
+}
+
+h5 {
+  font-size: 16pt;
+}
+
+p ul li {
+  font-family: "Lato";
+}
+
+p {
+  text-align: left;
+}

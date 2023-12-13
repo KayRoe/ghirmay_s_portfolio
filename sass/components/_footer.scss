@@ -1,0 +1,40 @@
+.contactform {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.formc {
+  flex-direction: column;
+  display: center;
+}
+
+
+.formc label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: -20px;
+}
+
+.formc input {
+  margin-left: 0px;
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 10px;
+
+  
+}
+
+.formc button {
+  width: 200px;
+  background-color: #14a2bb;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+
+}
+
+.formc button:hover {
+  background-color: #14a2bbcb;
+
+}

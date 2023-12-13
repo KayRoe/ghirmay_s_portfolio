@@ -1,0 +1,81 @@
+.pheader {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 30px; 
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  
+  
+  .psubheader{
+    font-family:'Lato';
+    font-size: 16px; 
+    text-align: center;
+    margin-bottom: 20px;
+  }
+    
+    
+  .projects {
+    font-family: 'Lato';
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+  }
+  
+  
+  .gallery {
+    border: 1px solid #ccc;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .description {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .cheader {
+    font-size: 30px; 
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  
+  
+  .carousel {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel .grid-con {
+    display: flex;
+    animation: galleryAnimation 5s infinite linear; 
+  }
+  
+  @keyframes galleryAnimation {
+    0% {
+      transform: translateX(0); /* Start from the initial position, covering all images */
+    }
+    100% {
+      transform: translateX(-150%); /* Move to the left, covering all images */
+    }
+  }
+  
+  .carousel img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .carousel:hover .grid-con {
+    animation-play-state: paused;
+  }
+  

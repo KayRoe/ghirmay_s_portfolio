@@ -1,0 +1,67 @@
+
+ .menu-social {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px; 
+  border-bottom: solid #000000 5px; 
+}
+
+.menu-social li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu-social li a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.menu-social li a:hover img {
+  transform: scale(1.2);
+}
+
+
+.icons {
+  width: 30px; 
+  height: 30px; 
+  vertical-align: middle;
+
+}
+
+.copyright {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  margin: 0; 
+}
+
+
+
+#mainMenu {
+  background-color: #333;
+}
+#mainMenu ul li {
+  display: inline;
+}
+
+.container.portfolio video {
+  width: 400px;
+}
+
+
+#viewproject-white {
+  width: 150px; 
+  height: 200px; 
+}
+
+
+#viewproject-blue {
+  width: 250px; 
+  height: 150px; 
+}

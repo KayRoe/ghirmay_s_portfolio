@@ -1,0 +1,235 @@
+
+.mobile-menu {
+  list-style-type: none;
+  margin-top: 12px;
+  text-align: right;
+}
+
+.mobile-menu li {
+  border-top: solid 2px #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mobile-menu li a {
+  color: rgb(19, 16, 16);
+  text-decoration: none;
+}
+
+.mobile-menu li:last-of-type {
+  border-bottom: solid 2px #fff;
+}
+
+
+nav {
+  background-color: #ffffff;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.nav-image.logo-size {
+  width: 80px;
+  
+}
+#hammenu {
+  width: 40px;
+  margin-left: 70px;
+  justify-self: end;
+}
+
+
+menu {
+  display: none;
+}
+
+nav ul.menu {
+  list-style: none;
+}
+
+nav ul.menu li {
+  display: none;
+  margin-right: 15px;
+}
+
+nav ul.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  color: white;
+}
+
+.nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+  @media screen and (min-width: 730px) {
+
+    nav ul.menu li {
+      display: inline;
+      font-size: 14px;
+    }
+  
+    #hammenu {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: none;
+    }
+  
+    .menu {
+      justify-self: end;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 32px;
+    }
+  
+    nav ul.menu li {
+      font-size: 16px;
+      margin-right: 20px;
+    }
+  }
+  
+  
+  
+  
+  
+    
+  
+  @media screen and (min-width: 768px) {
+  
+    nav ul.menu li {
+      display: inline;
+      font-size: 14px;
+    }
+  
+    #hammenu {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: none;
+    }
+  
+    .menu {
+      justify-self: end;
+    }
+  
+    .hintroduction {
+      height: 770px;
+    ;
+    }
+    .slogo {
+      max-height: 800px;
+    }
+    
+  
+    section {
+      display: block;
+    }
+    .container.hero {
+      width: 710px;
+    }
+    .container.portfolio video {
+      width: 710px;
+    }
+  
+    .pheader {
+      font-size: 35px; 
+    }
+  
+    .psubheader{
+      font-size: 20px; 
+    }
+  
+    #viewproject-white {
+      width: 200px; 
+      height: 300px; 
+    }
+    
+  
+    #viewproject-blue {
+      width: 300px; 
+      height: 200px; 
+    }
+    
+  
+  .projects {
+    font-family: 'Lato';
+    font-size: 30px; 
+    width: 49%;
+    margin: 6px 0px;
+  }
+  
+  
+  .formc input {
+    width: 100%;
+    margin-left: 20px;
+    
+  }
+  .carousel img {
+    width: 400px;
+  }
+  
+  
+  }
+  
+  
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 32px;
+    }
+    nav ul.menu li {
+      margin-right: 18px;
+      font-size: 15px;
+    }
+  
+    .container.hero {
+      width: 1100px;
+    }
+    .container.portfolio video {
+      width: 1100px;
+    }
+    .pheader {
+      font-size: 40px; 
+    }
+  
+    .psubheader{
+      font-size: 20px; 
+    }
+    .products {
+      width: 49%;
+      margin: 6px 0px;
+    }
+    .carousel img {
+      width: 500px;
+    }
+    
+    .formc input {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 10px;
+      margin-left: 80px;
+      
+      
+    }
+  
+  }
+  
+  
+  /* sourceMappingURL=main.css.map */
+  
+  
+  
+  
+  
+  

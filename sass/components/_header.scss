@@ -1,0 +1,69 @@
+.hintroduction {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 750px;
+  color: white;
+  background-color: #fff;
+
+  
+}
+
+.slogo {
+  max-height: 550px;
+}
+
+.hheading {
+  font-family: "Montserrat";
+  font-size: 40px;
+  color:  #14a2bbcb;
+}
+
+.hsubtitle {
+  font-family: "Lato";
+  letter-spacing: 3px;
+  font-size: 30px;
+  color:  #000000cb;
+
+
+}
+
+.button-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.button-image:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+  #demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+   
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header h2 {
+    font-size: 36px;
+    color: black;
+    
+  }
+  
+  header h3 {
+    font-size: 20px;
+    color: #818181;
+  }
+  
+  

@@ -1,0 +1,32 @@
+@use '../abstract/variables' as v;
+
+
+
+  .biography-text h3 {
+    font-family: "Montserrat";
+    font-size: 30px; 
+    color: white;
+  
+  }
+  .biography-image {
+    background-image: url("#.jpg");
+    background-color: #818181;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-bottom: 80px; 
+  }
+  .biography-text {
+    font-family: "Montserrat";
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 10px
+  }
+  
+  
